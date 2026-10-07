@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Welcome to my personal website where I share my resume and work.</p>
+        </section>
+
+        <hr>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer eager to learn new technologies and build applications.</p>
+            
+            <h3>Introductory Video</h3>
+            <video width="320" height="240" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <hr>
+
+        <section id="work">
+            <h2>My Work</h2>
+            <p>Here are some of the projects I have developed:</p>
+            <ul>
+                <li>Task Management Web Application</li>
+                <li>Interactive Quiz Web App</li>
+                <li>Database Management Project</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>A summary of my education and experience:</p>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Qualification / Experience</th>
+                        <th>Institution / Company</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Degree in Computer Science and Management</td>
+                        <td>Higher Institute of Computer Science and Management</td>
+                        <td>2023 - 2026</td>
+                    </tr>
+                    <tr>
+                        <td>Web Developer (Project)</td>
+                        <td>Personal Project</td>
+                        <td>2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 All Rights Reserved - Portfolio</p>
+    </footer>
+
+</body>
+</html>
